@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – RetroBuild</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,.08);
+      padding: 3rem 2.5rem;
+    }
+
+    header {
+      border-bottom: 2px solid #e8e8e8;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #111;
+    }
+
+    header p {
+      margin-top: .4rem;
+      color: #555;
+      font-size: .95rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #111;
+      margin-top: 2rem;
+      margin-bottom: .6rem;
+      padding-left: .75rem;
+      border-left: 4px solid #2563eb;
+    }
+
+    p { margin-bottom: .9rem; color: #333; }
+
+    ul {
+      margin: .5rem 0 .9rem 1.4rem;
+      color: #333;
+    }
+
+    ul li { margin-bottom: .35rem; }
+
+    .badge {
+      display: inline-block;
+      background: #d1fae5;
+      color: #065f46;
+      border-radius: 6px;
+      font-size: .8rem;
+      font-weight: 600;
+      padding: .15rem .55rem;
+      margin-left: .4rem;
+      vertical-align: middle;
+    }
+
+    .highlight-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0;
+      color: #1e40af;
+      font-size: .95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: .8rem 0 1rem;
+      font-size: .92rem;
+    }
+
+    th {
+      background: #f3f4f6;
+      text-align: left;
+      padding: .5rem .75rem;
+      font-weight: 600;
+      border: 1px solid #e5e7eb;
+    }
+
+    td {
+      padding: .45rem .75rem;
+      border: 1px solid #e5e7eb;
+      color: #333;
+    }
+
+    tr:nth-child(even) td { background: #fafafa; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e8e8e8;
+      font-size: .85rem;
+      color: #777;
+      text-align: center;
+    }
+
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p><strong>RetroBuild</strong> &nbsp;|&nbsp; Effective date: June 24, 2025 &nbsp;|&nbsp; Last updated: June 24, 2025</p>
+  </header>
+
+  <div class="highlight-box">
+    <strong>Summary:</strong> RetroBuild is a fully offline structural-engineering tool. It stores all your data on your own device and never transmits it to any external server or third party. The only external connection the app makes is to Google Play for verifying your in-app purchase.
+  </div>
+
+  <!-- 1 -->
+  <h2>1. Who We Are</h2>
+  <p>RetroBuild is developed and maintained by <strong>Ananta Spaces Developers</strong>. If you have any questions about this policy, you can reach us at:</p>
+  <p>Email: <a href="mailto:anantaspaces.dev@gmail.com">anantaspaces.dev@gmail.com</a></p>
+
+  <!-- 2 -->
+  <h2>2. What RetroBuild Does</h2>
+  <p>RetroBuild is a structural-engineering analysis and design app for civil engineers, architects, and construction students. Core features include:</p>
+  <ul>
+    <li>Beam analysis (point load &amp; UDL) — reactions, shear force, bending moment, deflection, stress</li>
+    <li>Column Euler-buckling analysis with various end conditions <span class="badge">Pro</span></li>
+    <li>Material database (modern &amp; heritage materials) with custom-material creation <span class="badge">Pro</span></li>
+    <li>Project saving and loading</li>
+    <li>PDF analysis-report export <span class="badge">Pro</span></li>
+    <li>Heritage mode (stone, wood, brick, mortar) <span class="badge">Pro</span></li>
+  </ul>
+  <p>All calculations are performed entirely on-device using deterministic structural-engineering formulas. The app does not use artificial intelligence or machine-learning models.</p>
+
+  <!-- 3 -->
+  <h2>3. Data We Collect and How It Is Used</h2>
+
+  <h2 style="font-size:1rem; border-left-color:#6366f1;">3a. Data You Enter (Stored Locally Only)</h2>
+  <p>When you use the app you may enter the following information, which is saved only to the SQLite database on your device:</p>
+  <ul>
+    <li><strong>Project data</strong> – project name, timestamp, beam/column dimensions and load parameters, computed results</li>
+    <li><strong>Custom materials</strong> – material name, compressive strength, density, elastic modulus</li>
+  </ul>
+  <p>This data never leaves your device. It is not backed up to any cloud service by us (Android's standard ADB backup is allowed but is controlled by you).</p>
+
+  <h2 style="font-size:1rem; border-left-color:#6366f1;">3b. Preference Data (Stored Locally Only)</h2>
+  <p>The app stores one preference flag — whether you have purchased the Pro upgrade — in Android DataStore on your device. This is used only to enable/disable Pro features locally.</p>
+
+  <h2 style="font-size:1rem; border-left-color:#6366f1;">3c. PDF Reports (Temporary Cache Only)</h2>
+  <p>When you export a report, the PDF is written to the app's private cache directory and shared with your chosen app (e.g. email, cloud storage) via Android's FileProvider. We do not upload or transmit the PDF anywhere ourselves.</p>
+
+  <!-- 4 -->
+  <h2>4. Permissions Used</h2>
+  <p>RetroBuild declares <strong>no Android permissions</strong> in its manifest. The app does not request access to:</p>
+  <ul>
+    <li>Camera or microphone</li>
+    <li>Location (fine or coarse)</li>
+    <li>Contacts, calendar, or phone</li>
+    <li>External storage or media library</li>
+    <li>Internet (the INTERNET permission is not declared)</li>
+  </ul>
+  <p>Google Play Billing communicates with Google Play Services through the Play Store app, which is a system-level component. This communication does not require the app itself to hold an INTERNET permission.</p>
+
+  <!-- 5 -->
+  <h2>5. Third-Party Services</h2>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Purpose</th><th>Data Shared</th><th>Provider Privacy Policy</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Play Billing</td>
+        <td>Process one-time Pro purchase (₹249)</td>
+        <td>Purchase token &amp; product ID — handled entirely by Google Play</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Google Fonts (Compose)</td>
+        <td>Download typefaces at runtime for UI typography</td>
+        <td>Font requests are served by Google; no personal data is sent</td>
+        <td><a href="https://developers.google.com/fonts/faq/privacy" target="_blank" rel="noopener">Google Fonts Privacy FAQ</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>We do not use any analytics SDK, crash-reporting service, advertising network, or social-media SDK. No user behaviour is tracked or profiled.</p>
+
+  <!-- 6 -->
+  <h2>6. In-App Purchases</h2>
+  <p>RetroBuild offers a single, one-time purchase called <strong>RetroBuild Pro</strong>. Payment is processed exclusively through the Google Play Store. We do not collect, store, or have access to your payment card details. All purchase and refund questions are handled by Google Play.</p>
+
+  <!-- 7 -->
+  <h2>7. Data Sharing and Disclosure</h2>
+  <p>We do not sell, rent, or share your personal data with any third parties. The only data that leaves your device is what Google Play handles during the billing flow (see Section 5).</p>
+  <p>We may disclose information if required by law or to protect our legal rights, but because we store no user data on our servers, there is nothing for us to disclose.</p>
+
+  <!-- 8 -->
+  <h2>8. Data Retention and Deletion</h2>
+  <p>All app data (projects, materials, preferences) is stored on your device for as long as you keep the app installed. You can delete individual projects or materials from within the app at any time.</p>
+  <p>To delete all data permanently, uninstall RetroBuild from your device. Uninstalling removes the SQLite database, DataStore preferences, and all cached PDF files.</p>
+
+  <!-- 9 -->
+  <h2>9. Security</h2>
+  <p>RetroBuild does not transmit user data over the network, which eliminates the most common data-security risk. Data on your device is protected by Android's application sandbox — other apps cannot access RetroBuild's database without root access. We use Android's FileProvider to share PDFs safely without exposing the file system.</p>
+
+  <!-- 10 -->
+  <h2>10. Children's Privacy</h2>
+  <p>RetroBuild is designed for civil engineering professionals, architects, and students. It is not directed at or intended for use by children under 13 years of age. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+  <!-- 11 -->
+  <h2>11. Your Rights</h2>
+  <p>Because all data is stored on your own device, you have full control:</p>
+  <ul>
+    <li><strong>Access</strong> – your data is in the app's own database, visible through the app UI.</li>
+    <li><strong>Correction</strong> – edit project names and custom materials directly in the app.</li>
+    <li><strong>Deletion</strong> – delete individual records in the app, or uninstall to remove everything.</li>
+    <li><strong>Portability</strong> – PDF exports are shareable via any app you choose.</li>
+  </ul>
+  <p>For purchase-related data held by Google, please refer to Google's privacy controls at <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>.</p>
+
+  <!-- 12 -->
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. For significant changes, we will notify users through the app or the Play Store listing. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+
+  <!-- 13 -->
+  <h2>13. Contact Us</h2>
+  <p>If you have any questions or concerns about this Privacy Policy, please contact:</p>
+  <ul>
+    <li><strong>Developer:</strong> Ananta Spaces Developers</li>
+    <li><strong>Email:</strong> <a href="mailto:anantaspaces.dev@gmail.com">anantaspaces.dev@gmail.com</a></li>
+  </ul>
+
+  <footer>
+    &copy; 2025 RetroBuild &nbsp;|&nbsp; All rights reserved &nbsp;|&nbsp;
+    <a href="mailto:anantaspaces.dev@gmail.com">Contact Us</a>
+  </footer>
+
+</div>
+</body>
+</html>
