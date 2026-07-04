@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Ananta Japa</title>
+  <style>
+    :root {
+      --saffron:     #FF8A3D;
+      --saffron-deep:#E8631A;
+      --gold:        #F6C453;
+      --ink:         #15110E;
+      --ink-elev:    #221B16;
+      --on-ink:      #F4E9DC;
+      --on-muted:    #B9A892;
+      --radius:      14px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--ink);
+      color: var(--on-ink);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, var(--saffron-deep) 0%, var(--saffron) 60%, var(--gold) 100%);
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 64px;
+      line-height: 1;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    header h1 {
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    header p.subtitle {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.85);
+    }
+
+    /* ── Main content ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      background: var(--ink-elev);
+      border: 1px solid #2E241D;
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 40px;
+      font-size: 0.875rem;
+      color: var(--on-muted);
+    }
+
+    .meta span strong { color: var(--on-ink); }
+
+    /* ── Section cards ── */
+    section {
+      background: var(--ink-elev);
+      border: 1px solid #2E241D;
+      border-radius: var(--radius);
+      padding: 28px 28px 24px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2 .icon {
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    section p, section li {
+      font-size: 0.93rem;
+      color: var(--on-muted);
+      margin-bottom: 8px;
+    }
+
+    section p:last-child, section li:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li::marker { color: var(--saffron); }
+
+    /* ── Permission table ── */
+    .perm-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 6px;
+    }
+
+    .perm-table th {
+      text-align: left;
+      padding: 8px 12px;
+      color: var(--on-ink);
+      font-weight: 600;
+      border-bottom: 1px solid #2E241D;
+    }
+
+    .perm-table td {
+      padding: 10px 12px;
+      color: var(--on-muted);
+      border-bottom: 1px solid #2E241D;
+      vertical-align: top;
+    }
+
+    .perm-table tr:last-child td { border-bottom: none; }
+
+    .perm-table td:first-child {
+      font-family: monospace;
+      font-size: 0.82rem;
+      color: var(--saffron);
+      white-space: nowrap;
+    }
+
+    /* ── Highlight box ── */
+    .highlight {
+      background: rgba(246, 196, 83, 0.08);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+      margin: 12px 0;
+      font-size: 0.9rem;
+      color: var(--on-ink);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.82rem;
+      color: var(--on-muted);
+      border-top: 1px solid #2E241D;
+    }
+
+    a { color: var(--saffron); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    @media (max-width: 500px) {
+      section { padding: 20px 16px; }
+      main { padding: 28px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="logo">अं</span>
+  <h1>Ananta Japa — Privacy Policy</h1>
+  <p class="subtitle">Simple, honest, devotion-first.</p>
+</header>
+
+<main>
+
+  <div class="meta">
+    <span><strong>Effective date:</strong> July 4, 2026</span>
+    <span><strong>Last updated:</strong> July 4, 2026</span>
+    <span><strong>Developer:</strong> Aditya Upasani</span>
+  </div>
+
+  <!-- Overview -->
+  <section>
+    <h2><span class="icon">🪷</span> Overview</h2>
+    <p>
+      Ananta Japa is a mantra counting application designed to support your daily spiritual
+      practice. This policy explains clearly what data the app uses, where it stays, and
+      what control you have over it.
+    </p>
+    <div class="highlight">
+      <strong>Short version:</strong> Your japa data lives on your device. Nothing is sent
+      to our servers — because we don't have any. The optional Google Drive backup copies
+      your data to <em>your own</em> Google account, not ours.
+    </div>
+  </section>
+
+  <!-- Data we collect -->
+  <section>
+    <h2><span class="icon">📋</span> Data Stored on Your Device</h2>
+    <p>All of the following is stored locally on your device only and never transmitted to us:</p>
+    <ul>
+      <li><strong>Japa session history</strong> — mantra name, bead count, round count, session start/end timestamps, and your optional sankalpa (intention note).</li>
+      <li><strong>App preferences</strong> — selected mantra, goal target, mala type, theme (dark/light), haptics, sound, reminder time.</li>
+      <li><strong>Streak data</strong> — daily streak count and best streak, stored in device preferences.</li>
+      <li><strong>In-progress session draft</strong> — temporarily saved so you don't lose a session if you switch apps.</li>
+    </ul>
+  </section>
+
+  <!-- Google Drive -->
+  <section>
+    <h2><span class="icon">☁️</span> Optional Google Drive Backup (Premium)</h2>
+    <p>
+      If you choose to enable cloud backup, the app signs you in with Google and writes your
+      session history to your <strong>own Google Drive account</strong> — specifically the
+      private <code>appDataFolder</code>, which is:
+    </p>
+    <ul>
+      <li>Invisible in your regular Google Drive file browser.</li>
+      <li>Accessible only by this app — no other apps or people can read it.</li>
+      <li>Stored under the minimal <code>drive.appdata</code> scope (the most restricted Drive permission).</li>
+    </ul>
+    <div class="highlight">
+      We never see, touch, or store your Drive data. The backup goes directly from your
+      device to your Google account.
+    </div>
+    <p>
+      Google's own privacy policy governs how Drive data is handled:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+    </p>
+  </section>
+
+  <!-- In-app purchases -->
+  <section>
+    <h2><span class="icon">💳</span> In-App Purchases</h2>
+    <p>
+      The Premium unlock is processed entirely by <strong>Google Play Billing</strong>.
+      The app receives only a confirmation that the purchase was made (or not).
+      We never see or store your payment details — Google handles all of that.
+    </p>
+  </section>
+
+  <!-- Notifications -->
+  <section>
+    <h2><span class="icon">🔔</span> Notifications &amp; Reminders</h2>
+    <p>
+      If you enable the daily reminder, the app schedules a local notification on your device
+      at the time you choose. This is processed entirely on-device using Android's WorkManager
+      — no network call is made and no data leaves your phone.
+    </p>
+  </section>
+
+  <!-- Permissions -->
+  <section>
+    <h2><span class="icon">🔐</span> Android Permissions Explained</h2>
+    <table class="perm-table">
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th>Why it is needed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>INTERNET</td>
+          <td>Required for the optional Google Drive backup to reach Google's servers.</td>
+        </tr>
+        <tr>
+          <td>ACCESS_NETWORK_STATE</td>
+          <td>Checks whether a connection is available before attempting a backup.</td>
+        </tr>
+        <tr>
+          <td>VIBRATE</td>
+          <td>Powers the haptic feedback on each bead count (can be turned off in settings).</td>
+        </tr>
+        <tr>
+          <td>BILLING</td>
+          <td>Allows the app to communicate with Google Play for the Premium unlock.</td>
+        </tr>
+        <tr>
+          <td>POST_NOTIFICATIONS</td>
+          <td>Sends the daily japa reminder notification you schedule in settings.</td>
+        </tr>
+        <tr>
+          <td>RECEIVE_BOOT_COMPLETED</td>
+          <td>Re-schedules your reminder after the device restarts so it isn't lost.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Third-party -->
+  <section>
+    <h2><span class="icon">🔗</span> Third-Party Services</h2>
+    <p>The app uses the following Google services, each governed by Google's privacy policy:</p>
+    <ul>
+      <li><strong>Google Play Billing</strong> — in-app purchase processing.</li>
+      <li><strong>Google Sign-In / Google Drive API</strong> — optional backup (Premium only).</li>
+    </ul>
+    <p>
+      The app does <strong>not</strong> include any advertising SDKs, analytics libraries,
+      crash-reporting services, or any other third-party data-collection tools.
+    </p>
+  </section>
+
+  <!-- Children -->
+  <section>
+    <h2><span class="icon">👶</span> Children's Privacy</h2>
+    <p>
+      Ananta Japa does not knowingly collect personal information from children under 13.
+      The app does not require account registration and stores all data locally on the device.
+    </p>
+  </section>
+
+  <!-- Data retention / deletion -->
+  <section>
+    <h2><span class="icon">🗑️</span> Data Retention &amp; Deletion</h2>
+    <ul>
+      <li>All local data is deleted when you uninstall the app from your device.</li>
+      <li>If you used Google Drive backup, you can delete the backup file by disconnecting
+          your Google account inside the app, or by removing the app's access in your
+          <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a>.</li>
+      <li>Purchase receipts are managed by Google Play and subject to Google's retention policy.</li>
+    </ul>
+  </section>
+
+  <!-- Changes -->
+  <section>
+    <h2><span class="icon">📝</span> Changes to This Policy</h2>
+    <p>
+      If we make material changes to this policy, the updated version will be posted here
+      with a new effective date. Continued use of the app after changes are posted constitutes
+      acceptance of the updated policy.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2><span class="icon">✉️</span> Contact</h2>
+    <p>
+      Questions or concerns about this privacy policy? Reach out at:<br />
+      <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+    </p>
+    <p style="margin-top:10px;">
+      You can also open an issue on the
+      <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME" target="_blank" rel="noopener">GitHub repository</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Aditya Upasani &nbsp;·&nbsp; Ananta Japa &nbsp;·&nbsp;
+  All japa data stays on your device.
+</footer>
+
+</body>
+</html>
